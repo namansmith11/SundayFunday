@@ -1,0 +1,82 @@
+@font-face {
+  font-family: sunday;
+  src: url("./assets/font/DMSans-VariableFont_opsz\,wght.ttf");
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: sunday;
+  background-image: url("./assets/images/egg.avif");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  /* background-color: rgba(255, 0, 0, 0.142); */
+}
+
+nav {
+  height: 70px;
+  width: 100%;
+  display: flex;
+  padding: 0 8vw;
+  align-items: center;
+  justify-content: space-between;
+}
+#navMenu {
+  display: flex;
+  gap: 6vw;
+}
+
+main {
+  padding: 0 8vw;
+  height: calc(100% - 70px);
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+#text {
+  height: 45%;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+#text p {
+  font-size: 2vw;
+}
+#text h1 {
+  font-size: 10vw;
+}
+#txt > p {
+  text-transform: uppercase;
+  color: #fba400;
+  letter-spacing: 10px;
+}
+
+button {
+  font-size: 1vw;
+  padding: 0.9vw 4vw;
+  border-radius: 20px;
+  border: none;
+  font-weight: 500;
+}
+#contactbtn {
+  font-size: 15px;
+  background-color: #fba400;
+  margin-right: 30px;
+  color: white;
+}
+
+#aboutbtn {
+  font-size: 15px;
+  background-color: transparent;
+  border: 1px solid black;
+}
